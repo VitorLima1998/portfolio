@@ -1,11 +1,12 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
+import Body from '../components/body';
 
 export default function Home() {
   return (
-    <div>
+    <div className='py-5 justify-between'>
       <Header />
-      <h1>Home is here</h1>
+      <Body />
       <Footer />
     </div>
   );
