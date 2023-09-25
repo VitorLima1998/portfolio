@@ -13,8 +13,8 @@ export default function Header() {
           </p>
         </div>
         <div className='flex justify-center space-x-4'>
-          <Link href='/Home'>
-            <Button text={'/'} />
+          <Link href='/'>
+            <Button text={'Home'} />
           </Link>
           <Link href='/Projects'>
             <Button text={'Projetos'} />
