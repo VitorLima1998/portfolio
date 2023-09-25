@@ -5,7 +5,7 @@ import Card from '../components/card';
 
 export default function Home() {
   return (
-    <div className='py-5 justify-between'>
+    <div>
       <Header />
       <Body />
       <Card />
