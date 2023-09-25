@@ -2,6 +2,7 @@ import Button from '../button';
 import Link from 'next/link';
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { BiCodeAlt } from 'react-icons/bi';
+import ThemeSwitcher from '../../components/toggle/ThemeSwitcher';
 
 export default function Header() {
   return (
@@ -23,7 +24,9 @@ export default function Header() {
             <Button text={'Sobre'} />
           </Link>
         </div>
-        <p className='flex gap-4 items-center text-2xl'>
+        <div className='flex gap-4 items-center text-2xl '>
+          <ThemeSwitcher />
+
           <a
             href='https://github.com/VitorLima1998'
             target='_blank'
@@ -47,7 +50,7 @@ export default function Header() {
           >
             <BsLinkedin />
           </a>
-        </p>
+        </div>
       </header>
     </div>
   );
