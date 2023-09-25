@@ -3,7 +3,7 @@ import Card from './components/card';
 import Footer from './components/footer';
 import Header from './components/header';
 
-export default function Home() {
+export default function App() {
   return (
     <div>
       <Header />
