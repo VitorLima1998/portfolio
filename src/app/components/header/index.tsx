@@ -1,4 +1,5 @@
 import Button from '../button';
+import Link from 'next/link';
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 import { BiCodeAlt } from 'react-icons/bi';
 
@@ -12,9 +13,15 @@ export default function Header() {
           </p>
         </div>
         <div className='flex justify-center space-x-4'>
-          <Button text={'home'} />
-          <Button text={'Projects'} />
-          <Button text={'About'} />
+          <Link href='/Home'>
+            <Button text={'home'} />
+          </Link>
+          <Link href='/Projects'>
+            <Button text={'Projetos'} />
+          </Link>
+          <Link href='/About'>
+            <Button text={'Sobre'} />
+          </Link>
         </div>
         <p className='flex gap-4 items-center text-2xl'>
           <a
