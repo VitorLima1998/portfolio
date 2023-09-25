@@ -2,7 +2,7 @@ import { SiNextdotjs } from 'react-icons/si';
 import { FaCopyright, FaGithub } from 'react-icons/fa6';
 export default function Footer() {
   return (
-    <div className='bg-transparent px-10 py-3 mx-auto'>
+    <div className='bg-transparent px-10 py-3 pt-20 mx-auto'>
       <footer className='flex justify-between'>
         <div className='flex gap-5'>
           <p className='flex items-center gap-2'>
