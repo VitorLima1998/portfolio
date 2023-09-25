@@ -3,8 +3,8 @@ import { SiTypescript } from 'react-icons/si';
 
 export default function Body() {
   return (
-    <div className='container flex py-5 mx-auto justify-center h-full gap-10'>
-      <div className='max-w-2xl p-3 flex flex-col gap-10 justify-center'>
+    <div className='container flex mx-auto justify-center'>
+      <div className='max-w-2xl p-3 w-1/2 flex flex-col gap-10 justify-center'>
         <h1 className='text-7xl text-justify'>Olá, meu nome é Vitor Lima</h1>
         <p className='text-2xl w-full text-justify'>
           Um apaixonado por tecnologia e programação que busca aprimorar os
@@ -22,8 +22,8 @@ export default function Body() {
           </div>
         </div>
       </div>
-      <div>
-        <img src='luffy.jpg' alt='Luffy' className='max-h-full rounded-xl' />
+      <div className='w-1/2 flex justify-center items-center'>
+        <img src='Vitor.jpeg' alt='Vitor' className='h-3/4  rounded-xl' />
       </div>
     </div>
   );
