@@ -4,7 +4,7 @@ import { BsFillRocketTakeoffFill } from 'react-icons/bs';
 
 export default function Card() {
   return (
-    <div className='container flex gap-10 justify-center mx-auto border rounded-xl p-5'>
+    <div className='container flex gap-10 justify-center mx-auto border border-gray-500 rounded-3xl p-5'>
       <div className='flex flex-col gap-2 w-1/3'>
         <AiFillCode className='text-4xl' />
         <h1 className='text-5xl'>Full Stack</h1>
