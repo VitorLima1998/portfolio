@@ -14,7 +14,7 @@ export default function Header() {
         </div>
         <div className='flex justify-center space-x-4'>
           <Link href='/Home'>
-            <Button text={'home'} />
+            <Button text={'/'} />
           </Link>
           <Link href='/Projects'>
             <Button text={'Projetos'} />
