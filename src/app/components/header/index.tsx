@@ -6,7 +6,7 @@ import ThemeSwitcher from '../../components/toggle/ThemeSwitcher';
 
 export default function Header() {
   return (
-    <div className='bg-transparent px-10 py-3 mx-auto'>
+    <div className='bg-transparent px-10 py-3 mx-auto w-full'>
       <header className='text-center flex justify-between items-center'>
         <div>
           <p className='flex gap-2 items-center text-2xl'>
@@ -55,3 +55,4 @@ export default function Header() {
     </div>
   );
 }
+
