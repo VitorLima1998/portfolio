@@ -5,7 +5,7 @@ import Header from './components/header';
 
 export default function App() {
   return (
-    <div>
+    <div className='flex flex-col gap-10'>
       <Header />
       <Body />
       <Card />
