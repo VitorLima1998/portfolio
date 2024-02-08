@@ -4,8 +4,8 @@ import { BsFillRocketTakeoffFill } from 'react-icons/bs';
 
 export default function Card() {
   return (
-    <div className='container flex gap-10 justify-center mx-auto border border-gray-500 rounded-3xl p-5'>
-      <div className='flex flex-col gap-2 w-1/3'>
+    <div className='container  flex gap-10 justify-center mx-auto border border-gray-500 rounded-3xl p-5 md:flex-row flex-col '>
+      <div className='flex flex-col gap-2 w-full md:w-1/3'>
         <AiFillCode className='text-4xl' />
         <h1 className='text-5xl'>Full Stack</h1>
         <p className='text-md text-justify'>
@@ -21,7 +21,7 @@ export default function Card() {
           indústria.
         </p>
       </div>
-      <div className='flex flex-col gap-2 w-1/3'>
+      <div className='flex flex-col gap-2 w-full md:w-1/3'>
         <BsFillRocketTakeoffFill className='text-4xl' />
         <h1 className='text-5xl'>Entusiasta</h1>
         <p className='text-md text-justify'>
@@ -34,7 +34,7 @@ export default function Card() {
           processo.
         </p>
       </div>
-      <div className='flex flex-col gap-2 w-1/3'>
+      <div className='flex flex-col gap-2 w-full md:w-1/3'>
         <GiTeamIdea className='text-4xl' />
         <h1 className='text-5xl'>Trabalho em Equipe</h1>
         <p className='text-md text-justify'>
